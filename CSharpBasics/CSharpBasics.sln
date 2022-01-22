@@ -1,0 +1,68 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "多线程", "多线程", "{6C991235-F638-4CBF-A1A3-A31519DB85DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpBasics.Process", "CSharpBasics.Process\CSharpBasics.Process.csproj", "{E8FBB92D-465D-434A-A713-433C6EBEA5F0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "异步编程", "异步编程", "{D02612B1-28F9-4087-873C-501911923C6A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpBasics.TaskTest", "CSharpBasics.TaskTest\CSharpBasics.TaskTest.csproj", "{57315E30-2EE2-442D-8A58-E6698E1A7894}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "委托、事件", "委托、事件", "{29B57ECE-4607-4186-AC4B-A92372859443}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpBasics.DelegateTest", "CSharpBasics.DelegateTest\CSharpBasics.DelegateTest.csproj", "{BBF60F00-95D3-4CA4-873C-10DCF9406A5D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "特性(Attribute)", "特性(Attribute)", "{28B39A45-39B5-4968-ABE5-E2DD52FBCF07}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AttributeTest", "AttributeTest\AttributeTest.csproj", "{CD2A8DF5-EDA6-40E7-A973-168086AEE4C0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Http协议", "Http协议", "{AB6E08C7-CFE5-4297-ADB3-1404DEB21F2E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TCP协议", "TCP协议", "{D0F01A0F-DF3D-4D7E-AC71-A1E48CADD291}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "索引器", "索引器", "{B561166C-5289-48C1-93E3-300CCA9BFC8F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "反射", "反射", "{2248F0F1-DC04-42AA-AC8F-540746A1A3E4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "基础语法", "基础语法", "{8AC28976-2A78-4331-AE78-DB2DFA50BE44}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "泛型、集合", "泛型、集合", "{82C2CDE1-980C-45E1-99E8-359A7B23C984}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IO", "IO", "{F80EA473-1218-4BF7-8A09-CF07B6F8B901}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E8FBB92D-465D-434A-A713-433C6EBEA5F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8FBB92D-465D-434A-A713-433C6EBEA5F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8FBB92D-465D-434A-A713-433C6EBEA5F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8FBB92D-465D-434A-A713-433C6EBEA5F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57315E30-2EE2-442D-8A58-E6698E1A7894}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57315E30-2EE2-442D-8A58-E6698E1A7894}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57315E30-2EE2-442D-8A58-E6698E1A7894}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57315E30-2EE2-442D-8A58-E6698E1A7894}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBF60F00-95D3-4CA4-873C-10DCF9406A5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBF60F00-95D3-4CA4-873C-10DCF9406A5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBF60F00-95D3-4CA4-873C-10DCF9406A5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBF60F00-95D3-4CA4-873C-10DCF9406A5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD2A8DF5-EDA6-40E7-A973-168086AEE4C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD2A8DF5-EDA6-40E7-A973-168086AEE4C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD2A8DF5-EDA6-40E7-A973-168086AEE4C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD2A8DF5-EDA6-40E7-A973-168086AEE4C0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E8FBB92D-465D-434A-A713-433C6EBEA5F0} = {6C991235-F638-4CBF-A1A3-A31519DB85DD}
+		{57315E30-2EE2-442D-8A58-E6698E1A7894} = {D02612B1-28F9-4087-873C-501911923C6A}
+		{BBF60F00-95D3-4CA4-873C-10DCF9406A5D} = {29B57ECE-4607-4186-AC4B-A92372859443}
+		{CD2A8DF5-EDA6-40E7-A973-168086AEE4C0} = {28B39A45-39B5-4968-ABE5-E2DD52FBCF07}
+	EndGlobalSection
+EndGlobal
